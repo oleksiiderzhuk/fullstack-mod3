@@ -5348,7 +5348,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-brand {
     float: left;
     height: 100px;
-    padding: 25px 25px;
+    padding: 10px 25px;
     font-size: 18px;
     line-height: 20px
 }
