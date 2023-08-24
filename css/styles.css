@@ -9,7 +9,7 @@
     font-family: Helvetica;
   
   }
-  
+
   h1 {
     font-size: 175%;
     margin-bottom: 0 px; 
@@ -17,6 +17,7 @@
     text-align: center;
   }
   
+
   p {
     border: 0px solid black;
     background-color: lightgray;
@@ -39,6 +40,8 @@
     
   .cont {
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 2px;
     height: 100%;
     padding: 35px;
     text-align: justify;

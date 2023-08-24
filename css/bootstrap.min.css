@@ -1672,6 +1672,8 @@ mark {
 }
 
 .text-center {
+    font-size: 36px;
+    font-weight: bold;
     text-align: center
 }
 
@@ -2762,7 +2764,7 @@ pre code {
     .col-lg-7,
     .col-lg-8,
     .col-lg-9 {
-        float: left
+        float: left;
     }
 
     .col-lg-12 {
@@ -5414,7 +5416,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding-bottom: 10px;
     line-height: 20px;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid ;
 }
 
 @media (max-width:767px) {
@@ -5633,12 +5635,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #777
+    color: white;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #333;
+    color: gray;
     background-color: transparent
 }
 
@@ -5756,9 +5759,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #fff;
-    background-color: transparent
-}
+    color: black;
+    background-color: white;}
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
@@ -5900,8 +5902,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #337ab7;
     text-decoration: none;
     background-color: #fff;
-    border: 1px solid #ddd
-}
+    border: 1px solid black;}
 
 .pagination>li:first-child>a,
 .pagination>li:first-child>span {
